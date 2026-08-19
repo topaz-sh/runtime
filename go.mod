@@ -1,6 +1,6 @@
 module github.com/aserto-dev/runtime
 
-go 1.19
+go 1.25.0
 
 //replace github.com/aserto-dev/go-utils => ../go-utils
 
@@ -14,7 +14,7 @@ require (
 	github.com/magefile/mage v1.14.0
 	github.com/mitchellh/copystructure v1.2.0
 	github.com/open-policy-agent/opa v0.51.0
-	github.com/opencontainers/image-spec v1.1.0-rc2
+	github.com/opencontainers/image-spec v1.1.1
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.28.0
 	github.com/stretchr/testify v1.8.2
@@ -61,7 +61,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.14.0 // indirect
 	golang.org/x/mod v0.8.0 // indirect
 	golang.org/x/net v0.8.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
@@ -71,5 +71,5 @@ require (
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	oras.land/oras-go/v2 v2.0.2 // indirect
+	oras.land/oras-go/v2 v2.6.2 // indirect
 )
