@@ -1,6 +1,6 @@
 module github.com/aserto-dev/runtime
 
-go 1.19
+go 1.24
 
 //replace github.com/aserto-dev/go-utils => ../go-utils
 
@@ -37,7 +37,7 @@ require (
 	github.com/google/subcommands v1.0.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
-	github.com/klauspost/compress v1.13.6 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
